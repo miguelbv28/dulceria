@@ -1,0 +1,72 @@
+.text-center.mb-5 {
+  margin-top: 90px;
+}
+/* HEADER */
+.branches-header {
+  padding: 100px 40px 60px;
+  text-align: center;
+  background: linear-gradient(135deg, #ff6f61, #ffb703);
+  color: white;
+  border-radius: 0 0 50px 50px;
+}
+
+.branches-header h2 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.branches-header p {
+  font-size: 1.2rem;
+  opacity: 0.95;
+}
+
+/* WRAPPER */
+.branches-wrapper {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+
+/* CONTENEDOR ANCHO */
+.branches-container {
+  max-width: 1400px;
+  margin: auto;
+  padding: 0 40px;
+}
+
+/* TARJETA */
+.branch-card {
+  background: white;
+  border-radius: 22px;
+  padding: 40px 30px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.12);
+  transition: all 0.35s ease;
+  height: 100%;
+}
+
+.branch-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.2);
+}
+
+.branch-card h5 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.branch-card p {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .branches-header h2 {
+    font-size: 2.2rem;
+  }
+
+  .branches-container {
+    padding: 0 20px;
+  }
+}

@@ -1,0 +1,7 @@
+.footer-modern {
+  background: linear-gradient(135deg, #dc3545cc, #b02a37cc);
+  box-shadow: 0 -4px 12px rgba(220, 53, 69, 0.7);
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  user-select: none;
+}

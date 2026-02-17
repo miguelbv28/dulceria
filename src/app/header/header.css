@@ -1,0 +1,24 @@
+.navbar-glass {
+  background: rgba(220, 53, 69, 0.85); /* bootstrap danger red with transparency */
+  backdrop-filter: saturate(180%) blur(10px);
+  transition: background-color 0.3s ease;
+}
+
+.navbar-glass .nav-link {
+  transition: color 0.3s ease;
+}
+
+.navbar-glass .nav-link:hover,
+.navbar-glass .nav-link.active {
+  color: #ffc107; /* Bootstrap warning color for highlight */
+  text-decoration: underline;
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  letter-spacing: 1.5px;
+}
+
+.navbar-toggler {
+  filter: invert(1); /* White toggler icon */
+}

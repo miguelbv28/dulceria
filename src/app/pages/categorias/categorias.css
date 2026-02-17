@@ -1,0 +1,85 @@
+.text-center.mb-5 {
+  margin-top: 90px;
+}
+/* HEADER */
+.category-header {
+  padding: 100px 40px 60px;
+  text-align: center;
+  background: linear-gradient(135deg, #ff4d6d, #ff8fa3);
+  color: white;
+  border-radius: 0 0 50px 50px;
+}
+
+.category-header h2 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.category-header p {
+  font-size: 1.2rem;
+  opacity: 0.95;
+}
+
+/* WRAPPER GENERAL */
+.categories-wrapper {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+
+/* CONTENEDOR ANCHO (DESKTOP) */
+.categories-container {
+  max-width: 1400px; /* 🔥 ancho real de computadora */
+  margin: auto;
+  padding: 0 40px;
+}
+
+/* TARJETAS */
+.category-card {
+  background: white;
+  border-radius: 24px;
+  padding: 45px 25px;
+  text-align: center;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.12);
+  transition: all 0.35s ease;
+  height: 100%;
+}
+
+.category-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.2);
+}
+
+/* EMOJI */
+.category-card .emoji {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.category-card h5 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.category-card p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* COLORES */
+.chocolate { border-top: 6px solid #6f1d1b; }
+.gummy { border-top: 6px solid #ff9f1c; }
+.lollipop { border-top: 6px solid #ff4d6d; }
+.cookie { border-top: 6px solid #8d6e63; }
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .category-header h2 {
+    font-size: 2.2rem;
+  }
+
+  .categories-container {
+    padding: 0 20px;
+  }
+}
